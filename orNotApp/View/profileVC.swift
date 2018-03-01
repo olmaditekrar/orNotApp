@@ -53,6 +53,9 @@ class profileVC: UIViewController,UITableViewDataSource,UITableViewDelegate{
             return profilePostsCell()
         }
     }
+    
+    
+    
     }
 
 

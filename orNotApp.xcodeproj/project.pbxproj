@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6610716420481F3800801BFB /* settingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6610716320481F3800801BFB /* settingsVC.swift */; };
 		66679B8E2029C3C100054161 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66679B8D2029C3C100054161 /* AppDelegate.swift */; };
 		66679B902029C3C100054161 /* profileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66679B8F2029C3C100054161 /* profileVC.swift */; };
 		66679B932029C3C100054161 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66679B912029C3C100054161 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6610716320481F3800801BFB /* settingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsVC.swift; sourceTree = "<group>"; };
 		66679B8A2029C3C100054161 /* orNotApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = orNotApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66679B8D2029C3C100054161 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66679B8F2029C3C100054161 /* profileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileVC.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			children = (
 				66679B8F2029C3C100054161 /* profileVC.swift */,
 				66C39B5E2046F006009C0CE0 /* feedVC.swift */,
+				6610716320481F3800801BFB /* settingsVC.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				66679B8E2029C3C100054161 /* AppDelegate.swift in Sources */,
 				66C39B612046F696009C0CE0 /* feedPostsCell.swift in Sources */,
 				668C07B62029EA9D00FDCD28 /* profilePostsCell.swift in Sources */,
+				6610716420481F3800801BFB /* settingsVC.swift in Sources */,
 				66FCF77D202A36BF003BAF4B /* Category.swift in Sources */,
 				66FCF77F202A3BB9003BAF4B /* DataService.swift in Sources */,
 			);
