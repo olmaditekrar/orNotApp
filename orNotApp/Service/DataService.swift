@@ -1,0 +1,29 @@
+//
+//  DataService.swift
+//  orNotApp
+//
+//  Created by Halil İbrahim Şimşek on 6.02.2018.
+//  Copyright © 2018 dotOrNotAppTeam. All rights reserved.
+//
+
+import Foundation
+class DataService {
+    static let instance = DataService()
+    private let catagories = [
+        
+        
+        Category(negativeStatus: "kötü", positiveStatus: "iyi", colone2name: "whiteColone", colone1bame: "whiteColone", negativeButtonname: "Shape Copy", positiveButtonname: "Group Copt", post: "Son 10 yılda dünya çapında pek çok değerli yazar, düşünür, politikacı ve sanatçıyı konuk ettiler. Küresel bir forum iddiasında olan etkinlik dünyanın aydın kesimlerince büyük bir dikkat ile izlenmekte.Rahmetli Sn. Nejat F. Eczacıbaşı’nın 1961 yılında “Ekonomik ve Sosyal Etütler Konferans Heyetini” (Bugünkü TESEV) kurmuş olduğunu düşünecek olur ve de TESEV’in son yıllarda yaşadığı sıkıntıları hatırlarsanız ülkemizin entelektüel yapısının ne yöne doğru evrildiğini çok daha iyi görürsünüz."),
+        Category(negativeStatus: "kötü", positiveStatus: "iyi", colone2name: "whiteColone", colone1bame: "whiteColone", negativeButtonname: "Shape Copy", positiveButtonname: "Group Copt", post: "Son 10 yılda dünya çapında pek çok değerli yazar, düşünür, politikacı ve sanatçıyı konuk ettiler. Küresel bir forum iddiasında olan etkinlik dünyanın aydın kesimlerince büyük bir dikkat ile izlenmekte.Rahmetli Sn. Nejat F. Eczacıbaşı’nın 1961 yılında “Ekonomik ve Sosyal Etütler Konferans Heyetini” (Bugünkü TESEV) kurmuş olduğunu düşünecek olur ve de TESEV’in son yıllarda yaşadığı sıkıntıları hatırlarsanız ülkemizin entelektüel yapısının ne yöne doğru evrildiğini çok daha iyi görürsünüz."),
+        Category(negativeStatus: "kötü", positiveStatus: "iyi", colone2name: "whiteColone", colone1bame: "whiteColone", negativeButtonname: "Shape Copy", positiveButtonname: "Group Copt", post: "Son 10 yılda dünya çapında pek çok değerli yazar, düşünür, politikacı ve sanatçıyı konuk ettiler. Küresel bir forum iddiasında olan etkinlik dünyanın aydın kesimlerince büyük bir dikkat ile izlenmekte.Rahmetli Sn. Nejat F. Eczacıbaşı’nın 1961 yılında “Ekonomik ve Sosyal Etütler Konferans Heyetini” (Bugünkü TESEV) kurmuş olduğunu düşünecek olur ve de TESEV’in son yıllarda yaşadığı sıkıntıları hatırlarsanız ülkemizin entelektüel yapısının ne yöne doğru evrildiğini çok daha iyi görürsünüz."),
+        Category(negativeStatus: "kötü", positiveStatus: "iyi", colone2name: "whiteColone", colone1bame: "whiteColone", negativeButtonname: "Shape Copy", positiveButtonname: "Group Copt", post: "Son 10 yılda dünya çapında pek çok değerli yazar, düşünür, politikacı ve sanatçıyı konuk ettiler. Küresel bir forum iddiasında olan etkinlik dünyanın aydın kesimlerince büyük bir dikkat ile izlenmekte.Rahmetli Sn. Nejat F. Eczacıbaşı’nın 1961 yılında “Ekonomik ve Sosyal Etütler Konferans Heyetini” (Bugünkü TESEV) kurmuş olduğunu düşünecek olur ve de TESEV’in son yıllarda yaşadığı sıkıntıları hatırlarsanız ülkemizin entelektüel yapısının ne yöne doğru evrildiğini çok daha iyi görürsünüz."),
+        Category(negativeStatus: "kötü", positiveStatus: "iyi", colone2name: "whiteColone", colone1bame: "whiteColone", negativeButtonname: "Shape Copy", positiveButtonname: "Group Copt", post: "Son 10 yılda dünya çapında pek çok değerli yazar, düşünür, politikacı ve sanatçıyı konuk ettiler. Küresel bir forum iddiasında olan etkinlik dünyanın aydın kesimlerince büyük bir dikkat ile izlenmekte.Rahmetli Sn. Nejat F. Eczacıbaşı’nın 1961 yılında “Ekonomik ve Sosyal Etütler Konferans Heyetini” (Bugünkü TESEV) kurmuş olduğunu düşünecek olur ve de TESEV’in son yıllarda yaşadığı sıkıntıları hatırlarsanız ülkemizin entelektüel yapısının ne yöne doğru evrildiğini çok daha iyi görürsünüz."),
+        Category(negativeStatus: "kötü", positiveStatus: "iyi", colone2name: "whiteColone", colone1bame: "whiteColone", negativeButtonname: "Shape Copy", positiveButtonname: "Group Copt", post: "Son 10 yılda dünya çapında pek çok değerli yazar, düşünür, politikacı ve sanatçıyı konuk ettiler. Küresel bir forum iddiasında olan etkinlik dünyanın aydın kesimlerince büyük bir dikkat ile izlenmekte.Rahmetli Sn. Nejat F. Eczacıbaşı’nın 1961 yılında “Ekonomik ve Sosyal Etütler Konferans Heyetini” (Bugünkü TESEV) kurmuş olduğunu düşünecek olur ve de TESEV’in son yıllarda yaşadığı sıkıntıları hatırlarsanız ülkemizin entelektüel yapısının ne yöne doğru evrildiğini çok daha iyi görürsünüz."),
+        Category(negativeStatus: "kötü", positiveStatus: "iyi", colone2name: "whiteColone", colone1bame: "whiteColone", negativeButtonname: "Shape Copy", positiveButtonname: "Group Copt", post: "Son 10 yılda dünya çapında pek çok değerli yazar, düşünür, politikacı ve sanatçıyı konuk ettiler. Küresel bir forum iddiasında olan etkinlik dünyanın aydın kesimlerince büyük bir dikkat ile izlenmekte.Rahmetli Sn. Nejat F. Eczacıbaşı’nın 1961 yılında “Ekonomik ve Sosyal Etütler Konferans Heyetini” (Bugünkü TESEV) kurmuş olduğunu düşünecek olur ve de TESEV’in son yıllarda yaşadığı sıkıntıları hatırlarsanız ülkemizin entelektüel yapısının ne yöne doğru evrildiğini çok daha iyi görürsünüz."),
+        Category(negativeStatus: "kötü", positiveStatus: "iyi", colone2name: "whiteColone", colone1bame: "whiteColone", negativeButtonname: "Shape Copy", positiveButtonname: "Group Copt", post: "Son 10 yılda dünya çapında pek çok değerli yazar, düşünür, politikacı ve sanatçıyı konuk ettiler. Küresel bir forum iddiasında olan etkinlik dünyanın aydın kesimlerince büyük bir dikkat ile izlenmekte.Rahmetli Sn. Nejat F. Eczacıbaşı’nın 1961 yılında “Ekonomik ve Sosyal Etütler Konferans Heyetini” (Bugünkü TESEV) kurmuş olduğunu düşünecek olur ve de TESEV’in son yıllarda yaşadığı sıkıntıları hatırlarsanız ülkemizin entelektüel yapısının ne yöne doğru evrildiğini çok daha iyi görürsünüz."),
+      
+    ]
+    func getCategories() -> [Category] {
+        return catagories
+    }
+    
+}
