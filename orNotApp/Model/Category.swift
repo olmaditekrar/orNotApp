@@ -15,8 +15,13 @@ struct Category {
     public  var negativeButtonname: String
     public  var positiveButtonname: String
     public  var post: String
-    
-    init(negativeStatus : String,positiveStatus: String,colone2name: String,colone1bame: String,negativeButtonname: String,positiveButtonname: String,post: String) {
+    public var optionOneRate : Int
+    public var optionTwoRate : Int
+    public var userName :String
+    public var lastName :String
+    public var senderID : String
+   
+    init(negativeStatus : String,positiveStatus: String,colone2name: String,colone1bame: String,negativeButtonname: String,positiveButtonname: String,post: String,optionTwoRate : Int,optionOneRate : Int,userName:String,lastName:String,senderID:String) {
         self.negativeStatus = negativeStatus
         self.positiveStatus = positiveStatus
         self.colone2name = colone2name
@@ -24,6 +29,12 @@ struct Category {
         self.negativeButtonname = negativeButtonname
         self.positiveButtonname = positiveButtonname
         self.post = post
+        self.optionOneRate = optionOneRate
+        self.optionTwoRate = optionTwoRate
+        self.userName = userName
+        self.lastName = lastName
+        self.senderID = senderID
+        
     }
     
 }
